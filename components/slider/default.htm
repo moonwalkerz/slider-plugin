@@ -13,11 +13,29 @@
   <div class="splide__track">
 		<ul class="splide__list">
       {% for slide in slideshow.payload %}
-			<li class="splide__slide">
+			<li class="splide__slide splide__slide_{{loop.index}}" style="background-position-y: {{slide.position}}% !important;background-position-x: {{slide.horizontal_position}}% !important;">
         <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
-        <h2>{{ slide.title }}</h2>
+        <h2>{{ slide.title }} {{ slide.position}}</h2>
+        
       </li>
       {% endfor %}
 		</ul>
   </div>
 </section>
+
+
+{% put styles %}
+<style>
+  {% for slide in slideshow.payload %}
+  .splide__slide_{{loop.index}} {
+    {% if slide.position %}
+    background-position-y: {{slide.position}}% !important;
+    {% endif %}
+    {% if slide.horizontal_position %}
+    background-position-x: {{slide.horizontal_position}}% !important;
+    {% endif %}
+  }
+  {% endfor %}
+</style>
+{% endput %}
+```
