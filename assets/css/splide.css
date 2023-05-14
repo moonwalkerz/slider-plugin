@@ -280,3 +280,13 @@
 .splide__slide {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
+
+
+h2.splide__caption {
+    position: absolute;
+color: #fff;
+text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+left: 2rem;
+bottom: 1rem;
+font-size: 24px;
+}

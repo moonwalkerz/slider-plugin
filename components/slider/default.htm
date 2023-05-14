@@ -12,7 +12,7 @@
       {% for slide in slideshow.payload %}
 			<li class="splide__slide splide__slide_{{loop.index}}">
         <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
-        <h2>{{ slide.title }} {{ slide.position}}</h2>
+        <h2 class="spline__caption">{{ slide.title }} {{ slide.position}}</h2>
       </li>
       {% endfor %}
 		</ul>
