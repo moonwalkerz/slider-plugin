@@ -1,0 +1,479 @@
+tabs:
+    fields:
+        payload:
+            label: 'moonwalkerz.slider::lang.slider.slides'
+            prompt: 'Add new slide'
+            displayMode: default
+            span: full
+            type: repeater
+            tab: 'moonwalkerz.slider::lang.slider.slides'
+            form:
+                fields:
+                    path:
+                        label: 'moonwalkerz.slider::lang.slider.slide_image'
+                        mode: image
+                        thumbOptions:
+                            mode: crop
+                            extension: auto
+                        span: left
+                        type: mediafinder
+                    title:
+                        label: 'moonwalkerz.slider::lang.slider.slide_title'
+                        span: auto
+                        type: text
+                    link:
+                        label: 'moonwalkerz.slider::lang.slider.slide_link'
+                        span: right
+                        type: text
+                    description:
+                        label: 'moonwalkerz.slider::lang.slider.slide_description'
+                        size: large
+                        span: right
+                        type: textarea
+                    position:
+                        label: 'moonwalkerz.slider::lang.slider.image_position'
+                        options:
+                            0: 'Show Top'
+                            25: 'Show Top Middle'
+                            50: 'Show Middle'
+                            75: 'Show Bottom Middle'
+                            100: 'Show Bottom'
+                        span: right
+                        type: radio
+                    horizontal_position:
+                        label: 'moonwalkerz.slider::lang.slider.image_horizontal_position'
+                        options:
+                            0: 'Show Left'
+                            25: 'Show Left Middle'
+                            50: 'Show Middle'
+                            75: 'Show Right Middle'
+                            100: 'Show Right'
+                        span: right
+                        type: radio
+        settings1:
+            label: 'moonwalkerz.slider::lang.slider.toggle_options'
+            span: full
+            type: section
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        autoplay:
+            label: 'moonwalkerz.slider::lang.slider.autoplay'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.autoplay_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        rewind:
+            label: 'moonwalkerz.slider::lang.slider.rewind'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.rewind_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        auto_width:
+            label: 'moonwalkerz.slider::lang.slider.auto_width'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.auto_width_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        auto_height:
+            label: 'moonwalkerz.slider::lang.slider.auto_height'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.auto_height_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        pause_on_hover:
+            label: 'moonwalkerz.slider::lang.slider.pause_on_hover'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.pause_on_hover_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        pause_on_focus:
+            label: 'moonwalkerz.slider::lang.slider.pause_on_focus'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.pause_on_focus_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        wait_for_transition:
+            label: 'moonwalkerz.slider::lang.slider.wait_for_transition'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.wait_for_transition'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        reset_progress:
+            label: 'moonwalkerz.slider::lang.slider.reset_progress'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.reset_progress_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        wheel:
+            label: 'moonwalkerz.slider::lang.slider.wheel'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.wheel_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        release_wheel:
+            label: 'moonwalkerz.slider::lang.slider.release_wheel'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.release_wheel_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        cover:
+            label: 'moonwalkerz.slider::lang.slider.cover'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.cover_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        slidefocus:
+            label: 'moonwalkerz.slider::lang.slider.slidefocus'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.slidefocus_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        is_navigation:
+            label: 'moonwalkerz.slider::lang.slider.is_navigation'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.is_navigation_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        trim_space:
+            label: 'moonwalkerz.slider::lang.slider.trim_space'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.trim_space_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        omit_end:
+            label: 'moonwalkerz.slider::lang.slider.omit_end'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.omit_end_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        live:
+            label: 'moonwalkerz.slider::lang.slider.live'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.live_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        update_on_move:
+            label: 'moonwalkerz.slider::lang.slider.update_on_move'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.update_on_move_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        destroy:
+            label: 'moonwalkerz.slider::lang.slider.destroy'
+            span: auto
+            default: 0
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.destroy_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        arrows:
+            label: 'moonwalkerz.slider::lang.slider.arrows'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.arrows_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        pagination:
+            label: 'moonwalkerz.slider::lang.slider.pagination'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.pagination_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        pagination_keyboard:
+            label: 'moonwalkerz.slider::lang.slider.pagination_keyboard'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.pagination_keyboard_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        drag:
+            label: 'moonwalkerz.slider::lang.slider.drag'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.drag_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        rewind_by_drag:
+            label: 'moonwalkerz.slider::lang.slider.rewind_by_drag'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.rewind_by_drag_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        snap:
+            label: 'moonwalkerz.slider::lang.slider.snap'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.snap_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        clone_status:
+            label: 'moonwalkerz.slider::lang.slider.clone_status'
+            span: auto
+            default: 1
+            type: switch
+            comment: 'moonwalkerz.slider::lang.slider.clone_status_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        settings2:
+            label: 'moonwalkerz.slider::lang.slider.options'
+            span: full
+            type: section
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        type:
+            label: 'moonwalkerz.slider::lang.slider.type'
+            options:
+                slide: Slide
+                loop: Loop
+                fade: Fade
+            showSearch: true
+            span: auto
+            default: slide
+            type: dropdown
+            commentAbove: 'moonwalkerz.slider::lang.slider.type_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        role:
+            label: 'moonwalkerz.slider::lang.slider.role'
+            span: auto
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.role_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        aria_label:
+            label: 'moonwalkerz.slider::lang.slider.aria_label'
+            span: auto
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.aria_label_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        aria_labelledby:
+            label: 'moonwalkerz.slider::lang.slider.aria_labelledby'
+            span: auto
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.aria_labelledby_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        speed:
+            label: 'moonwalkerz.slider::lang.slider.speed'
+            span: auto
+            placeholder: '400'
+            default: '400'
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.speed_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        rewind_speed:
+            label: 'moonwalkerz.slider::lang.slider.rewind_speed'
+            span: auto
+            placeholder: '1000'
+            default: '1000'
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.rewind_speed_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        width:
+            label: 'moonwalkerz.slider::lang.slider.width'
+            span: auto
+            placeholder: 500px
+            default: 100%
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.width_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        height:
+            label: 'moonwalkerz.slider::lang.slider.height'
+            span: auto
+            placeholder: 500px
+            default: 500px
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.height_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        fixed_width:
+            label: 'moonwalkerz.slider::lang.slider.fixed_width'
+            span: auto
+            default: ''
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.fixed_width_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        fixed_height:
+            label: 'moonwalkerz.slider::lang.slider.fixed_height'
+            span: auto
+            default: ''
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.fixed_height_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        height_ratio:
+            label: 'moonwalkerz.slider::lang.slider.height_ratio'
+            span: auto
+            placeholder: '0.4'
+            default: '.4'
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.height_ratio_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        start:
+            label: 'moonwalkerz.slider::lang.slider.start'
+            span: auto
+            placeholder: '400'
+            default: '400'
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.start_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        clones:
+            label: 'moonwalkerz.slider::lang.slider.clones'
+            span: auto
+            default: ''
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.clones_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        focus:
+            label: 'moonwalkerz.slider::lang.slider.focus'
+            span: auto
+            default: center
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.focus_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        gap:
+            label: 'moonwalkerz.slider::lang.slider.gap'
+            span: auto
+            default: ''
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.gap_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        padding:
+            label: 'moonwalkerz.slider::lang.slider.padding'
+            span: auto
+            default: center
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.padding_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        pagination_direction:
+            label: 'moonwalkerz.slider::lang.slider.pagination_direction'
+            span: auto
+            options:
+                ltr: 'moonwalkerz.slider::lang.slider.pagination_direction_ltr'
+                rtl: 'moonwalkerz.slider::lang.slider.pagination_direction_rtl'
+                ttb: 'moonwalkerz.slider::lang.slider.pagination_direction_ttb'
+            default: ltr
+            type: dropdown
+            commentAbove: 'moonwalkerz.slider::lang.slider.pagination_direction_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        easing:
+            label: 'moonwalkerz.slider::lang.slider.easing'
+            span: auto
+            default: ''
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.easing_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        easing_func:
+            label: 'moonwalkerz.slider::lang.slider.easing_func'
+            span: auto
+            default: ''
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.easing_func_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        drag_min_treshold:
+            label: 'moonwalkerz.slider::lang.slider.drag_min_treshold'
+            span: auto
+            default: '{ mouse: 0, touch: 10 }'
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.drag_min_treshold_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        flick_power:
+            label: 'moonwalkerz.slider::lang.slider.flick_power'
+            span: auto
+            placeholder: 600
+            default: 600
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.flick_power_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        flick_max_pages:
+            label: 'moonwalkerz.slider::lang.slider.flick_max_pages'
+            span: auto
+            placeholder: 1
+            default: 1
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.flick_max_pages_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        arrow_path:
+            label: 'moonwalkerz.slider::lang.slider.arrow_path'
+            span: auto
+            default: 'M17.5 0L0 17.5L17.5 35L20 32.5L5 17.5L20 2.5L17.5 0Z'
+            type: text
+            commentAbove: 'moonwalkerz.slider::lang.slider.arrow_path_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        interval:
+            label: 'moonwalkerz.slider::lang.slider.interval'
+            span: auto
+            placeholder: 5000
+            default: 5000
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.interval_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        lazy_load:
+            label: 'moonwalkerz.slider::lang.slider.lazy_load'
+            span: auto
+            options:
+                'false': 'moonwalkerz.slider::lang.slider.lazy_load_false'
+                nearby: 'moonwalkerz.slider::lang.slider.lazy_load_nearby'
+                sequential: 'moonwalkerz.slider::lang.slider.lazy_load_sequential'
+            default: 'false'
+            type: dropdown
+            commentAbove: 'moonwalkerz.slider::lang.slider.lazy_load_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        preload_pages:
+            label: 'moonwalkerz.slider::lang.slider.preload_pages'
+            span: auto
+            placeholder: 1
+            default: 1
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.preload_pages_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        per_page:
+            label: 'moonwalkerz.slider::lang.slider.per_page'
+            span: auto
+            placeholder: '1'
+            default: 1
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.per_page_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        per_move:
+            label: 'moonwalkerz.slider::lang.slider.per_move'
+            span: auto
+            default: 1
+            type: number
+            commentAbove: 'moonwalkerz.slider::lang.slider.per_move_desc'
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+        responsive:
+            label: 'moonwalkerz.slider::lang.slider.breakpoints'
+            prompt: 'Add Break Point'
+            span: full
+            type: repeater
+            tab: 'moonwalkerz.slider::lang.slider.settings'
+            form:
+                fields:
+                    breakpoint:
+                        label: 'moonwalkerz.slider::lang.slider.breakpoint'
+                        span: auto
+                        required: 1
+                        type: number
+                        commentAbove: 'moonwalkerz.slider::lang.slider.breakpoint_desc'
+                    per_page:
+                        label: 'moonwalkerz.slider::lang.slider.per_page'
+                        span: auto
+                        required: 1
+                        type: number
+                        commentAbove: 'moonwalkerz.slider::lang.slider.per_page_desc'
+fields:
+    title:
+        label: 'moonwalkerz.slider::lang.slider.title'
+        span: full
+        type: text

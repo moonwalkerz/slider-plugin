@@ -1,0 +1,11 @@
+plugin:
+    name: 'moonwalkerz.slider::lang.plugin.name'
+    description: 'moonwalkerz.slider::lang.plugin.description'
+    author: MoonWalkerz
+    icon: oc-icon-image
+    homepage: 'https://moonwalkerz.dev'
+navigation:
+    main-menu-item:
+        label: 'moonwalkerz.slider::lang.plugin.slideshows'
+        url: moonwalkerz/slider/slideshows
+        icon: icon-image

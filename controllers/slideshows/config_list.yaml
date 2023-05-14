@@ -1,0 +1,12 @@
+list: $/moonwalkerz/slider/models/slideshow/columns.yaml
+modelClass: Moonwalkerz\Slider\Models\Slideshow
+title: Slideshows
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'moonwalkerz/slider/slideshows/update/:id'

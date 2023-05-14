@@ -1,0 +1,23 @@
+{% put scripts %}
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide' );
+    splide.mount();
+  } );
+</script>
+{% endput %}
+
+
+
+<section class="splide" data-splide='{{ data_attribute}}' aria-label='{{slideshow.aria_label}}'>
+  <div class="splide__track">
+		<ul class="splide__list">
+      {% for slide in slideshow.payload %}
+			<li class="splide__slide">
+        <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
+        <h2>{{ slide.title }}</h2>
+      </li>
+      {% endfor %}
+		</ul>
+  </div>
+</section>

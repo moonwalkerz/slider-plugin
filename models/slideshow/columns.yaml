@@ -1,0 +1,9 @@
+columns:
+    id:
+        label: 'moonwalkerz.slider::lang.plugin.id'
+        type: number
+        sortable: true
+    title:
+        label: 'moonwalkerz.slider::lang.plugin.title'
+        type: text
+        sortable: true
