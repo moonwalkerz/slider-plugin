@@ -49,7 +49,7 @@ class Slider extends ComponentBase
     
     public function onRun()
     {
-        $this->addCss('assets/css/splide-core.min.css');
+        $this->addCss('assets/css/splide.min.css');
     //    $this->addCss('assets/css/themes/splide-default.min.css');
         $this->addJs('assets/js/splide.min.js');
         $this->slideshow=$this->page['slideshow'] = Slideshow::find($this->property('slideShowId'));
