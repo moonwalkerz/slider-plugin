@@ -30,26 +30,16 @@ tabs:
                         size: large
                         span: right
                         type: textarea
-                    position:
-                        label: 'moonwalkerz.slider::lang.slider.image_position'
-                        options:
-                            0: 'Show Top'
-                            25: 'Show Top Middle'
-                            50: 'Show Middle'
-                            75: 'Show Bottom Middle'
-                            100: 'Show Bottom'
+                    position_y:
+                        label: 'moonwalkerz.slider::lang.slider.position_y'
+                        type: text
                         span: right
-                        type: radio
-                    horizontal_position:
-                        label: 'moonwalkerz.slider::lang.slider.image_horizontal_position'
-                        options:
-                            0: 'Show Left'
-                            25: 'Show Left Middle'
-                            50: 'Show Middle'
-                            75: 'Show Right Middle'
-                            100: 'Show Right'
+                        comment: 'moonwalkerz.slider::lang.slider.position_y_desc'
+                    position_x:
+                        label: 'moonwalkerz.slider::lang.slider.position_x'
+                        type: text
                         span: right
-                        type: radio
+                        comment: 'moonwalkerz.slider::lang.slider.position_x_desc'
         settings1:
             label: 'moonwalkerz.slider::lang.slider.toggle_options'
             span: full
