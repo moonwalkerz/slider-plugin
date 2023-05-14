@@ -22,10 +22,10 @@
 <style>
   {% for slide in slideshow.payload %}
   .splide__slide_{{loop.index}} {
-    {% if slide.position %}
+    {% if slide.position_y %}
     background-position-y: {{slide.position_y}} !important;
     {% endif %}
-    {% if slide.horizontal_position %}
+    {% if slide.position_x %}
     background-position-x: {{slide.position_x}} !important;
     {% endif %}
   }
