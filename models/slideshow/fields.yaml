@@ -32,14 +32,42 @@ tabs:
                         type: textarea
                     position_y:
                         label: 'moonwalkerz.slider::lang.slider.position_y'
-                        type: text
                         span: right
+                        type: text
                         comment: 'moonwalkerz.slider::lang.slider.position_y_desc'
                     position_x:
                         label: 'moonwalkerz.slider::lang.slider.position_x'
-                        type: text
                         span: right
+                        type: text
                         comment: 'moonwalkerz.slider::lang.slider.position_x_desc'
+                    layers:
+                        label: ''
+                        prompt: 'Add new item'
+                        displayMode: accordion
+                        showReorder: 1
+                        showDuplicate: 1
+                        span: full
+                        type: repeater
+                        form:
+                            fields:
+                                image:
+                                    label: 'Media Finder'
+                                    mode: image
+                                    thumbOptions:
+                                        mode: crop
+                                        extension: auto
+                                    span: auto
+                                    type: mediafinder
+                                position_y:
+                                    label: 'moonwalkerz.slider::lang.slider.position_y'
+                                    span: auto
+                                    type: text
+                                    comment: 'moonwalkerz.slider::lang.slider.position_y_desc'
+                                position_x:
+                                    label: 'moonwalkerz.slider::lang.slider.image_horizontal_position'
+                                    span: auto
+                                    type: text
+                                    comment: 'moonwalkerz.slider::lang.slider.position_x_desc'
         settings1:
             label: 'moonwalkerz.slider::lang.slider.toggle_options'
             span: full
