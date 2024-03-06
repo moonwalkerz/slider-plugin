@@ -1,15 +1,15 @@
 {% put scripts %}
 <script>
   document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide' );
+    var splide = new Splide( '.splide',{{ data_attribute|raw}} );
     splide.mount();
   } );
 </script>
 {% endput %}
-<section class="splide" data-splide='{{ data_attribute}}' aria-label='{{slideshow.aria_label}}'>
+<section class="splide" aria-label='{{slideshow.aria_label}}'>
   <div class="splide__track">
 		<ul class="splide__list">
-      {% for slide in slideshow.payload %}
+      {% for slide in slides %}
 			<li class="splide__slide splide__slide_{{loop.index}}">
         <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
         <h2 class="splide__caption">{{ slide.title }} {{ slide.position}}</h2>
@@ -20,7 +20,7 @@
 </section>
 {% put styles %}
 <style>
-  {% for slide in slideshow.payload %}
+  {% for slide in slides %}
   .splide__slide_{{loop.index}} {
     {% if slide.position_y %}
     background-position-y: {{slide.position_y}} !important;
