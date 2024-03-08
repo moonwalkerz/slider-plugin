@@ -4,7 +4,7 @@ return [
         "description" => "Un semplice slider/carousel leggero, flessibile e accessibile. ",
         "id" => "",
         "name" => "Slider",
-        "slideshows" => "Slideshows",
+        "slideshows" => "Caroselli",
         "title" => "Titolo"
     ],
     "slider" => [

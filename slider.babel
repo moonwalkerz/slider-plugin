@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<babeledit_project be_version="4.1.0" version="1.3">
+<babeledit_project be_version="5.2.0" version="1.3">
 	<!--
 
     BabelEdit project file
@@ -29,7 +29,6 @@
 										<name>description</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -45,7 +44,6 @@
 										<name>id</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -61,7 +59,6 @@
 										<name>name</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -77,7 +74,6 @@
 										<name>slideshows</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -93,7 +89,6 @@
 										<name>title</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -114,7 +109,6 @@
 										<name>aria_label</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -130,7 +124,6 @@
 										<name>aria_label_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -146,7 +139,6 @@
 										<name>aria_labelledby</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -162,7 +154,6 @@
 										<name>aria_labelledby_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -178,7 +169,6 @@
 										<name>arrow_path</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -194,7 +184,6 @@
 										<name>arrow_path_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -210,7 +199,6 @@
 										<name>arrow_path_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -226,7 +214,6 @@
 										<name>arrows</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -242,7 +229,6 @@
 										<name>arrows_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -258,7 +244,6 @@
 										<name>auto_height</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -274,7 +259,6 @@
 										<name>auto_height_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -290,7 +274,6 @@
 										<name>auto_width</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -306,7 +289,6 @@
 										<name>auto_width_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -322,7 +304,6 @@
 										<name>autoplay</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -338,7 +319,6 @@
 										<name>autoplay_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -354,7 +334,6 @@
 										<name>clone_status</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -370,7 +349,6 @@
 										<name>clone_status_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -386,7 +364,6 @@
 										<name>clones</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -402,7 +379,6 @@
 										<name>clones_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -418,7 +394,6 @@
 										<name>cover</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -434,7 +409,6 @@
 										<name>cover_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -450,7 +424,6 @@
 										<name>destroy</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -466,7 +439,6 @@
 										<name>destroy_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -482,7 +454,6 @@
 										<name>drag</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -498,7 +469,6 @@
 										<name>drag_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -514,7 +484,6 @@
 										<name>drag_min_treshold</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -530,7 +499,6 @@
 										<name>drag_min_treshold_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -546,7 +514,6 @@
 										<name>drag_min_treshold_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -562,7 +529,6 @@
 										<name>easing</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -578,7 +544,6 @@
 										<name>easing_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -594,7 +559,6 @@
 										<name>easing_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -610,7 +574,6 @@
 										<name>easing_func</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -626,7 +589,6 @@
 										<name>easing_func_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -642,7 +604,6 @@
 										<name>easing_func_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -658,7 +619,6 @@
 										<name>fixed_height</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -674,7 +634,6 @@
 										<name>fixed_height_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -690,7 +649,6 @@
 										<name>fixed_width</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -706,7 +664,6 @@
 										<name>fixed_width_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -722,7 +679,6 @@
 										<name>flick_max_pages</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -738,7 +694,6 @@
 										<name>flick_max_pages_desk</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -754,7 +709,6 @@
 										<name>flick_power</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -770,7 +724,6 @@
 										<name>flick_power_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -786,7 +739,6 @@
 										<name>focus</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -802,7 +754,6 @@
 										<name>focus_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -818,7 +769,6 @@
 										<name>focus_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -834,7 +784,6 @@
 										<name>gap</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -850,7 +799,6 @@
 										<name>gap_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -866,7 +814,6 @@
 										<name>gap_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -882,7 +829,6 @@
 										<name>height</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -898,7 +844,6 @@
 										<name>height_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -914,7 +859,6 @@
 										<name>height_ratio</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -930,7 +874,6 @@
 										<name>height_ratio_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -946,7 +889,6 @@
 										<name>image_horizontal_position</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -962,7 +904,6 @@
 										<name>image_position</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -978,7 +919,6 @@
 										<name>interval</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -994,7 +934,6 @@
 										<name>interval_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1010,7 +949,6 @@
 										<name>is_navigation</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1026,7 +964,6 @@
 										<name>is_navigation_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1042,7 +979,6 @@
 										<name>lazy_load</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1058,7 +994,6 @@
 										<name>lazy_load_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1074,7 +1009,6 @@
 										<name>lazy_load_false</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1090,7 +1024,6 @@
 										<name>lazy_load_nearby</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1106,7 +1039,6 @@
 										<name>lazy_load_sequential</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1122,7 +1054,6 @@
 										<name>live</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1138,7 +1069,6 @@
 										<name>live_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1154,7 +1084,6 @@
 										<name>no_drag</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1170,7 +1099,6 @@
 										<name>no_drag_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1186,7 +1114,6 @@
 										<name>no_drag_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1202,7 +1129,6 @@
 										<name>omit_end</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1218,7 +1144,6 @@
 										<name>omit_end_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1234,7 +1159,6 @@
 										<name>padding</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1250,7 +1174,6 @@
 										<name>padding_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1266,7 +1189,6 @@
 										<name>padding_desc2</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1282,7 +1204,6 @@
 										<name>pagination</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1298,7 +1219,6 @@
 										<name>pagination_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1314,7 +1234,6 @@
 										<name>pagination_direction</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1330,7 +1249,6 @@
 										<name>pagination_direction_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1346,7 +1264,6 @@
 										<name>pagination_direction_ltr</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1362,7 +1279,6 @@
 										<name>pagination_direction_rtl</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1378,7 +1294,6 @@
 										<name>pagination_direction_ttb</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1394,7 +1309,6 @@
 										<name>pagination_keyboard</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1410,7 +1324,6 @@
 										<name>pagination_keyboard_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1426,7 +1339,6 @@
 										<name>pause_on_focus</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1442,7 +1354,6 @@
 										<name>pause_on_focus_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1458,7 +1369,6 @@
 										<name>pause_on_hover</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1474,7 +1384,6 @@
 										<name>pause_on_hover_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1490,7 +1399,6 @@
 										<name>per_move</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1506,7 +1414,6 @@
 										<name>per_move_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1522,7 +1429,6 @@
 										<name>per_page</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1538,7 +1444,6 @@
 										<name>per_page_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1554,7 +1459,6 @@
 										<name>position_x</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1570,7 +1474,6 @@
 										<name>position_x_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1586,7 +1489,6 @@
 										<name>position_y</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1602,7 +1504,6 @@
 										<name>position_y_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1618,7 +1519,6 @@
 										<name>preload_pages</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1634,7 +1534,6 @@
 										<name>preload_pages_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1650,7 +1549,6 @@
 										<name>release_wheel</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1666,7 +1564,6 @@
 										<name>release_wheel_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1682,7 +1579,6 @@
 										<name>reset_progress</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1698,7 +1594,6 @@
 										<name>reset_progress_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1714,7 +1609,6 @@
 										<name>rewind</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1730,7 +1624,6 @@
 										<name>rewind_by_drag</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1746,7 +1639,6 @@
 										<name>rewind_by_drag_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1762,7 +1654,6 @@
 										<name>rewind_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1778,7 +1669,6 @@
 										<name>rewind_speed</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1794,7 +1684,6 @@
 										<name>rewind_speed_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1810,7 +1699,6 @@
 										<name>role</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1826,7 +1714,6 @@
 										<name>role_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1842,7 +1729,6 @@
 										<name>settings</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1858,7 +1744,6 @@
 										<name>slide_description</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1874,7 +1759,6 @@
 										<name>slide_image</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1890,7 +1774,6 @@
 										<name>slide_link</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1906,7 +1789,6 @@
 										<name>slide_title</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1922,7 +1804,6 @@
 										<name>slidefocus</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1938,7 +1819,6 @@
 										<name>slidefocus_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1954,7 +1834,6 @@
 										<name>slides</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1970,7 +1849,6 @@
 										<name>snap</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -1986,7 +1864,6 @@
 										<name>snap_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2002,7 +1879,6 @@
 										<name>speed</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2018,7 +1894,6 @@
 										<name>speed_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2034,7 +1909,6 @@
 										<name>start</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2050,7 +1924,6 @@
 										<name>start_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2066,7 +1939,6 @@
 										<name>title</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2082,7 +1954,6 @@
 										<name>toggle_options</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2098,7 +1969,6 @@
 										<name>trim_space</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2114,7 +1984,6 @@
 										<name>trim_space_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2130,7 +1999,6 @@
 										<name>type</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2146,7 +2014,6 @@
 										<name>type_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2162,7 +2029,6 @@
 										<name>update_on_move</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2178,7 +2044,6 @@
 										<name>update_on_move_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2194,7 +2059,6 @@
 										<name>wait_for_transition</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2210,7 +2074,6 @@
 										<name>wait_for_transition_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2226,7 +2089,6 @@
 										<name>wheel</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2242,7 +2104,6 @@
 										<name>wheel_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2258,7 +2119,6 @@
 										<name>width</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2274,7 +2134,6 @@
 										<name>width_desc</name>
 										<description/>
 										<comment/>
-										<default_text/>
 										<translations>
 											<translation>
 												<language>en-GB</language>
@@ -2328,6 +2187,7 @@
 			<copy_template>trans_choice('%1', n)</copy_template>
 		</copy_templates>
 		<custom_languages/>
+		<id_extractor_ignores/>
 	</editor_configuration>
 	<primary_language>it-IT</primary_language>
 	<configuration>
