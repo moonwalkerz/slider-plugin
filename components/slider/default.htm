@@ -6,6 +6,8 @@
   } );
 </script>
 {% endput %}
+
+
 <section class="splide" aria-label='{{slideshow.aria_label}}'>
   <div class="splide__track">
 		<ul class="splide__list">
@@ -14,7 +16,7 @@
         <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
         <h2 class="splide__caption">{{ slide.title }} {{ slide.position}}</h2>
         {% for layer in slide.layers %}
-        <div class="splide__layer splide__layer_{{layer.position_x}} splide__layer_splide__{{layer.position_y}} layer_{{loop.index}}">
+        <div class="splide__layer splide__layer_{{layer.position_x}} splide__layer_{{layer.position_y}} splide__layer_{{loop.index}}">
         <img src="{{ layer.path|media }}" alt="{{ layer.title }}" />
         </div>
         {% endfor %}
@@ -34,6 +36,40 @@
     background-position-x: {{slide.position_x}} !important;
     {% endif %}
   }
+{% for layer in slide.layers %}
+.splide__layer_{{loop.index}}.splide__layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height:100%;
+  }
+
+  .splide__layer_{{loop.index}}.splide__layer.splide__layer_middle {
+    align-items: center;
+
+}
+
+.splide__layer_{{loop.index}}.splide__layer.splide__layer_top {
+
+    align-items: flex-start !important;
+}
+.splide__layer_{{loop.index}}.splide__layer.splide__layer_bottom {
+
+    align-items: flex-end;
+}
+.splide__layer_{{loop.index}}.splide__layer.splide__layer_center {
+    justify-content: center;
+
+}
+.splide__layer_{{loop.index}}.splide__layer.splide__layer_left {
+    justify-content: flex-start;
+
+}
+.splide__layer_{{loop.index}}.splide__layer.splide__layer_right {
+    justify-content: flex-end;
+
+}
+{% endfor %}
   {% endfor %}
 
 
