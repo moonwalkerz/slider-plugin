@@ -41,8 +41,8 @@ tabs:
                         type: text
                         comment: 'moonwalkerz.slider::lang.slider.position_x_desc'
                     layers:
-                        label: ''
-                        prompt: 'Add new item'
+                        label: 'moonwalkerz.slider::lang.slider.layers'
+                        prompt: 'moonwalkerz.slider::lang.slider.add_layer'
                         displayMode: accordion
                         showReorder: 1
                         showDuplicate: 1
@@ -50,7 +50,7 @@ tabs:
                         type: repeater
                         form:
                             fields:
-                                image:
+                                path:
                                     label: 'Media Finder'
                                     mode: image
                                     thumbOptions:

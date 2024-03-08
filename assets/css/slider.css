@@ -1,0 +1,32 @@
+.splide__layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height:100%;
+  }
+
+.splide__layer__middle {
+    align-items: center;
+
+}
+
+.splide__layer__top {
+
+    align-items: flex-start;
+}
+.splide__layer__bottom {
+
+    align-items: flex-end;
+}
+.splide__layer__center {
+    justify-content: center;
+
+}
+.splide__layer__left {
+    justify-content: flex-start;
+
+}
+.splide__layer__right {
+    justify-content: flex-end;
+
+}

@@ -13,6 +13,11 @@
 			<li class="splide__slide splide__slide_{{loop.index}}">
         <img src="{{ slide.path|media }}" alt="{{ slide.title }}" />
         <h2 class="splide__caption">{{ slide.title }} {{ slide.position}}</h2>
+        {% for layer in slide.layers %}
+        <div class="splide__layer splide__layer_{{layer.position_x}} splide__layer_splide__{{layer.position_y}} layer_{{loop.index}}">
+        <img src="{{ layer.path|media }}" alt="{{ layer.title }}" />
+        </div>
+        {% endfor %}
       </li>
       {% endfor %}
 		</ul>
@@ -30,5 +35,7 @@
     {% endif %}
   }
   {% endfor %}
+
+
 </style>
 {% endput %}
