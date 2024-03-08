@@ -139,7 +139,7 @@ class Slider extends ComponentBase
 
         $data['lazyLoad']=$this->slideshow->lazy_load;
       
-        
+        $data['type']=$this->slideshow->type;
 
 
         $this->page['data_attribute']=$this->data_attribute=json_encode($data);
