@@ -3,6 +3,7 @@
 # Slider | October CMS
 
 MoonWalkerz present "Slider"! A Splide based slider plugin for October CMS. this plugin allows you to create and publish slideshows ad sliders on your website.
+This plugin was inspired by the Slick Slider Plugin by Peter Hegmann.
 
 ## 🔥 Features 🔥
 
@@ -44,6 +45,7 @@ below some examples:
 ## 🙏 Big Thanks to 🙏
 - SplideJS | https://splidejs.com
 - Rainlab | https://github.com/rainlab
+- Slick Slider | https://octobercms.com/plugin/peterhegman-slickslider
 
 ## 🤑 Support Us 🤑
 
