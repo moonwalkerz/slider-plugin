@@ -2,7 +2,7 @@
 return [
     "plugin" => [
         "description" => "Un semplice slider/carousel leggero, flessibile e accessibile. ",
-        "id" => "",
+        "id" => "id",
         "name" => "Slider",
         "slideshows" => "Caroselli",
         "title" => "Titolo"
