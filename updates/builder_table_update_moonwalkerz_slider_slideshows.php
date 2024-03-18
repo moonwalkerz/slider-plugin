@@ -1,9 +1,9 @@
-<?php namespace Moonwalkerz\Slider\Updates;
+<?php namespace MoonWalkerz\Slider\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
 
-class BuilderTableUpdateMoonwalkerzSliderSlideshows extends Migration
+class BuilderTableUpdateMoonWalkerzSliderSlideshows extends Migration
 {
     public function up()
     {

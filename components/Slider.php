@@ -2,7 +2,7 @@
 
 use Cms\Classes\ComponentBase;
 
-use Moonwalkerz\Slider\Models\Slideshow;
+use MoonWalkerz\Slider\Models\Slideshow;
 
 /**
  * Slider Component

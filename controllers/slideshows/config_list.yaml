@@ -1,5 +1,5 @@
 list: $/moonwalkerz/slider/models/slideshow/columns.yaml
-modelClass: Moonwalkerz\Slider\Models\Slideshow
+modelClass: MoonWalkerz\Slider\Models\Slideshow
 title: Slideshows
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true

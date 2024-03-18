@@ -1,4 +1,4 @@
-<?php namespace Moonwalkerz\Slider\Models;
+<?php namespace MoonWalkerz\Slider\Models;
 
 use Model;
 

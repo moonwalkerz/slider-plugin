@@ -1,4 +1,4 @@
-<?php namespace Moonwalkerz\Slider\Controllers;
+<?php namespace MoonWalkerz\Slider\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
@@ -13,6 +13,6 @@ class Slideshows extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Moonwalkerz.Slider', 'main-menu-item');
+        BackendMenu::setContext('MoonWalkerz.Slider', 'main-menu-item');
     }
 }

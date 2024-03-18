@@ -1,4 +1,4 @@
-<?php namespace Moonwalkerz\Slider;
+<?php namespace MoonWalkerz\Slider;
 
 use System\Classes\PluginBase;
 
@@ -7,13 +7,13 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Moonwalkerz\Slider\Components\Slider' => 'slider'
+            'MoonWalkerz\Slider\Components\Slider' => 'slider'
         ];
     }
     public function registerPageSnippets()
     {
         return [
-            'Moonwalkerz\Slider\Components\Slider' => 'slider'
+            'MoonWalkerz\Slider\Components\Slider' => 'slider'
         ];
     }
     public function registerSettings()

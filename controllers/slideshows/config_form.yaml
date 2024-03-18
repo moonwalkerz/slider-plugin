@@ -1,6 +1,6 @@
 name: Slideshows
 form: $/moonwalkerz/slider/models/slideshow/fields.yaml
-modelClass: Moonwalkerz\Slider\Models\Slideshow
+modelClass: MoonWalkerz\Slider\Models\Slideshow
 defaultRedirect: moonwalkerz/slider/slideshows
 create:
     redirect: 'moonwalkerz/slider/slideshows/update/:id'
