@@ -1,5 +1,5 @@
 {
-    "name": "moonwalkerz/oc-slider-plugin",
+    "name": "moonwalkerz/slider-plugin",
     "description": "Splide Slider for October CMS",
     "type": "october-plugin",
     "require": {
