@@ -4,12 +4,6 @@
 
 MoonWalkerz present "Slider"! A Splide based slider plugin for October CMS. this plugin allows you to create and publish slideshows ad sliders on your website.
 
-## News and Changelog
-
-V1.0.0'
-
-
-
 ## 🔥 Features 🔥
 
 - Fully manageable from backend.
