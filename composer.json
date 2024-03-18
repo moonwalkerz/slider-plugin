@@ -1,0 +1,30 @@
+{
+    "name": "moonwalkerz/oc-slider-plugin",
+    "description": "Splide Slider for October CMS",
+    "type": "october-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=7.4",
+        "rainlab/translate-plugin": ">=1.9",
+        "inetis/listswitch-plugin": ">=1.0"
+    },
+    "keywords": [
+      "october",
+      "cms",
+    "splide",
+    "slider",
+    "plugin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alain Martini",
+            "email": "alain@moonwalkerz.dev"
+        }
+    ],
+    "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

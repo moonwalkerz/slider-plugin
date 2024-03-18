@@ -2,7 +2,7 @@
 
 # Slider | October CMS
 
-MoonWalkerz present "Slider"! A splide based slider plugin for October CMS. this plugin allows you to create and publish slideshows ad sliders on your website.
+MoonWalkerz present "Slider"! A Splide based slider plugin for October CMS. this plugin allows you to create and publish slideshows ad sliders on your website.
 
 ## News and Changelog
 
