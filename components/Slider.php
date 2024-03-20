@@ -58,7 +58,10 @@ class Slider extends ComponentBase
 
         $this->slideshow=Slideshow::find($this->property('slideShowId'));
         
-        $this->slides=$this->page['slides'] = $this->slideshow->payload;
+        $this->slides=$this->page['slides'] = $this->slideshow?->payload;
+        if (!$this->slideshow) {
+            return;
+        }
         unset($this->slideshow->payload);
         $this->page['slideshow'] = $this->slideshow;
         
