@@ -8,3 +8,7 @@ v1.0.3:
     - builder_table_update_moonwalkerz_slider_slideshows.php
 v1.0.4:
     - 'fixed payload on null error'
+v1.0.5:
+    - 'fixes'
+v1.0.6:
+    - 'bump to v1.0.6 now multiple sliders on the same page can be added'
