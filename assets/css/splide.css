@@ -15,6 +15,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    
     width: 2em;
     z-index: 1
 }
@@ -38,16 +39,20 @@
     outline-offset: 3px
 }
 
+
 .splide__arrow--prev {
-    left: 1em
+    left: 1em;
+    padding-left:7px;
 }
 
-.splide__arrow--prev svg {
-    transform: scaleX(-1)
+.splide__arrow--next svg {
+    transform: scaleX(-1);
+    
 }
 
 .splide__arrow--next {
-    right: 1em
+    right: 1em;
+    padding-right:5px;
 }
 @keyframes splide-loading {
     0% {

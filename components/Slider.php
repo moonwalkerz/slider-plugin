@@ -53,6 +53,11 @@ class Slider extends ComponentBase
         $this->addCss('assets/css/splide.css');
         $this->addJs('assets/js/splide.min.js');
 
+    }
+
+    public function onRender()
+    {
+    
         $slideshow = Slideshow::find($this->property('slideShowId'));
 
 
@@ -143,105 +148,6 @@ class Slider extends ComponentBase
         $data['lazyLoad']=$this->slideshow->lazy_load;
       
         $data['type']=$this->slideshow->type;
-
-
         $this->page['data_attribute']=$this->data_attribute=json_encode($data);
-
-   
-    
-    /*
-    resetProgress	
-
-Determines whether to reset the autoplay progress when it is requested to start again or not
-	
-lazyLoad	
-
-Enables lazy loading
-	
-preloadPages	
-
-Determines how many pages (not slides) around the active slide should be loaded beforehand
-	
-keyboard	
-
-Enables keyboard shortcuts
-	
-wheel	
-
-Enables navigation by the mouse wheel
-	
-wheelMinThreshold	
-
-The threshold to cut off the small delta produced by inertia scroll
-	
-wheelSleep	
-
-The sleep duration in milliseconds until accepting next wheel input
-	
-releaseWheel	
-
-Determines whether to release the wheel event when the carousel reaches the first or last slide
-	
-direction	
-
-The direction of the carousel
-	
-cover	
-
-Converts the image src to the css background-image URL of the parent element
-	
-slideFocus	
-
-Determines whether to add tabindex="0" to visible slides or not
-	
-focusableNodes	
-
-A selector for focusable nodes inside slides.
-	
-isNavigation	
-
-If true, the carousel makes slides clickable to navigate another carousel
-	
-trimSpace	
-
-Determines whether to trim spaces before/after the carousel if the focus option is available
-	
-omitEnd	
-
-Disables the next arrow when the carousel reaches the last page and omits redundant pagination dots(^4.1.0)
-	
-updateOnMove	
-
-Updates the is-active status of slides just before moving the carousel
-	
-mediaQuery	
-
-If min, the media query for breakpoints will be min-width, or otherwise, max-width
-	
-live	
-
-Enables a live region
-	
-breakpoints	
-
-The collection of responsive options for specific breakpoints
-	
-reducedMotion	
-
-Options used when the (prefers-reduced-motion: reduce) is detected
-	
-classes	
-
-The collection of class names
-	
-i18n	
-
-The collection of i18n strings
-	
-destroy	
-
-Destroys the carousel
-
-*/
     }
 }

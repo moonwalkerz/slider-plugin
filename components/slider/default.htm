@@ -1,14 +1,13 @@
 {% put scripts %}
 <script>
   document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide',{{ data_attribute|raw}} );
-    splide.mount();
+    new Splide( "#splide_{{slideshow.id}}",{{ data_attribute|raw}}).mount();
   } );
 </script>
 {% endput %}
 
 
-<section class="splide" aria-label='{{slideshow.aria_label}}'>
+<section id="splide_{{slideshow.id}}" class="splide" aria-label='{{slideshow.aria_label}}'>
   <div class="splide__track">
 		<ul class="splide__list">
       {% for slide in slides %}
